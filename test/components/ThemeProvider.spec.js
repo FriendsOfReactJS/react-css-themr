@@ -5,12 +5,12 @@ import TestUtils from 'react-dom/test-utils'
 import { ThemeProvider } from '../../src/index'
 
 
-before(function () {
+before(() => {
   /* eslint-disable no-console */
   console.error = function () {}
 })
 
-after(function () {
+after(() => {
   delete console.error
 })
 
@@ -47,8 +47,7 @@ describe('ThemeProvider', () => {
       )).toThrow(/expected to receive a single React element child/)
 
       expect(() => TestUtils.renderIntoDocument(
-        <ThemeProvider theme={theme}>
-        </ThemeProvider>
+        <ThemeProvider theme={theme} />
       )).toThrow(/expected to receive a single React element child/)
     } finally {
       ThemeProvider.propTypes = propTypes

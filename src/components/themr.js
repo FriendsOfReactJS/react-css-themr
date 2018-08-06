@@ -226,7 +226,6 @@ function merge(original = {}, mixin = {}) {
           case 'object': {
             //can't merge a non-object with an object
             throw new Error(`You are merging non-object ${mixinValue} with an object ${key}`)
-            break
           }
 
           case 'undefined': {
