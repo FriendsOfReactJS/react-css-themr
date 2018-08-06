@@ -30,7 +30,7 @@ When you use [CSS Modules](https://github.com/css-modules/css-modules) to style 
 
 Taking ideas from [future-react-ui](https://github.com/nikgraf/future-react-ui) and [react-themeable](https://github.com/markdalgleish/react-themeable), a component should be shipped **without** styles. This means we can consider the styles as an **injectable dependency**. In CSS Modules you can consider the imported classnames object as a **theme** for a component. Therefore, every styled component should define a *classname API* to be used in the rendering function.
 
-The most immediate way of providing a classname object is via *props*. In case you want to import a component with a theme already injected, you have to write a higher order component that does the job. This is ok for your own components, but for ui-kits like [React Toolbox](http://www.react-toolbox.com) or [Belle](http://nikgraf.github.io/belle/), you'd have to write a wrapper for every single component you want to use. In this fancy, you can understand the theme as a **set** of related classname objects for different components. It makes sense to group them together in a single object and move it through the component tree using a context. This way, you can provide a theme either via **context**, **hoc** or **props**.
+The most immediate way of providing a classname object is via *props*. In case you want to import a component with a theme already injected, you have to write a higher order component that does the job. This is ok for your own components, but for ui-kits like [React Toolbox](http://www.react-toolbox.io) or [Belle](http://nikgraf.github.io/belle/), you'd have to write a wrapper for every single component you want to use. In this fancy, you can understand the theme as a **set** of related classname objects for different components. It makes sense to group them together in a single object and move it through the component tree using a context. This way, you can provide a theme either via **context**, **hoc** or **props**.
 
 The approach of @friendsofreactjs/react-css-themr consists of a *provider* and a *decorator*. The provider sets a context theme. The decorator adds to your components the logic to figure out which theme should be used or how should it be composed, depending on configuration, context and props.
 
@@ -134,7 +134,7 @@ The final classnames object for the `Button` component would include class value
 
 ### Context theming
 
-Although context theming is not limited to ui-kits, it's very useful to avoid declaring hoc for every component. For example, in [react-toolbox](http://www.react-toolbox.com), you can define a context theme like:
+Although context theming is not limited to ui-kits, it's very useful to avoid declaring hoc for every component. For example, in [react-toolbox](http://www.react-toolbox.io), you can define a context theme like:
 
 ```jsx
 import React from 'react';
@@ -156,7 +156,7 @@ const content = (
 render(content, document.getElementById('app'));
 ```
 
-The main idea is to inject classnames objects for each component via context. This way you can have the whole theme in a single place and forget about including styles in every require. Any component `Button` or `Dialog` from will use the provided styles in the context.
+The main idea is to inject classnames objects for each component via context. This way you can have the whole theme in a single place and forget about including styles in every require. Any `Button` or `Dialog` component will use the styles provided in the context.
 
 ## API
 
@@ -168,7 +168,7 @@ Makes available a `theme` context to use in styled components. The shape of the 
 
 Returns a `function` to wrap a component and make it themeable.
 
-The returned component accepts a `theme`, `composeTheme`, `innerRef` and `mapThemrProps` props apart from the props of the original component. They former two are used to provide a `theme` to the component and to configure the style composition, which can be configured via options too. `innerRef` is used to pass a ref callback to the decorated component and `mapThemrProps` is a function that can be used to map properties to the decorated component. The function arguments are:
+The returned component accepts a `theme`, `composeTheme`, `innerRef` and `mapThemrProps` props apart from the props of the original component. The former two are used to provide a `theme` to the component and to configure the style composition, which can be configured via options too. `innerRef` is used to pass a ref callback to the decorated component and `mapThemrProps` is a function that can be used to map properties to the decorated component. The function arguments are:
 
 - `Identifier` *(String)* used to provide a unique identifier to the component that will be used to get a theme from context.
 - `[defaultTheme]` (*Object*) is  classname object resolved from CSS modules. It will be used as the default theme to calculate a new theme that will be passed to the component.
@@ -178,7 +178,7 @@ The returned component accepts a `theme`, `composeTheme`, `innerRef` and `mapThe
 
 ## About
 
-The project is originally authored by [Javi Velasco](http://www.javivelasco.com) as an effort of providing a better customization experience for [React Toolbox](http://www.react-toolbox.com). Any comments, improvements or feedback is highly appreciated.
+The project is originally authored by [Javi Velasco](http://www.javivelasco.com) as an effort of providing a better customization experience for [React Toolbox](http://react-toolbox.io). Any comments, improvements or feedback is highly appreciated.
 
 Thanks to [Nik Graf](http://www.twitter.com/nikgraf) and [Mark Dalgleish](http://www.twitter.com/markdalgleish) for their thoughts about theming and customization for React components.
 

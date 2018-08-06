@@ -54,7 +54,7 @@ export default (componentName, localTheme, options = {}) => (ThemedComponent) =>
    * @property {{wrappedInstance: *}} refs
    */
   class Themed extends Component {
-    static displayName = `Themed${ThemedComponent.name}`;
+    static displayName = `Themed${(ThemedComponent.displayName || ThemedComponent.name || "Component")}`;
 
     static contextTypes = {
       themr: PropTypes.object
@@ -225,7 +225,7 @@ function merge(original = {}, mixin = {}) {
         switch (typeof originalValue) {
           case 'object': {
             //can't merge a non-object with an object
-            throw new Error(`You are merging non-object ${mixinValue} with an object ${key}`)
+            throw new Error(`You are merging non-object ${mixinValue} with an object ${key}, (can occur when using empty or :global only base theme stylesheet)`)
           }
 
           case 'undefined': {
