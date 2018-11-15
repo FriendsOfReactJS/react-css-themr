@@ -136,21 +136,19 @@ export default (componentName, localTheme, options = {}) => ThemedComponent => {
       const { composeTheme } = this.props
       return composeTheme === COMPOSE_SOFTLY
         ? {
-          ...this.getContextTheme(),
-          ...config.localTheme,
-          ...this.getNamespacedTheme()
-        }
+            ...this.getContextTheme(),
+            ...config.localTheme,
+            ...this.getNamespacedTheme()
+          }
         : themeable(
-          themeable(this.getContextTheme(), config.localTheme),
-          this.getNamespacedTheme()
-        )
+            themeable(this.getContextTheme(), config.localTheme),
+            this.getNamespacedTheme()
+          )
     }
 
     calcTheme() {
       const { composeTheme } = this.props
-      return composeTheme
-        ? this.getTheme()
-        : this.getThemeNotComposed()
+      return composeTheme ? this.getTheme() : this.getThemeNotComposed()
     }
 
     shouldComponentUpdate(prevProps) {
