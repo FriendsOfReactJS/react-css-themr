@@ -27,4 +27,5 @@
         "commitsSort": ["subject", "scope"],
       }
     }
+    "publish": ["@semantic-release/github", "@semantic-release/npm"]
 }
