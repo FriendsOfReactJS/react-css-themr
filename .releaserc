@@ -17,7 +17,7 @@
         "@semantic-release/npm",
         {
             "path": "@semantic-release/git",
-            "assets": ["package.json", "CHANGELOG.md"],
+            "assets": ["src/**/*.{js}", "lib/**/*.{js}", "package.json", "CHANGELOG.md"],
             "message": "Build: Release ${nextRelease.version} [skip ci]"
         }
     ],
