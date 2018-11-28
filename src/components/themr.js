@@ -159,9 +159,8 @@ export default (componentName, localTheme, options = {}) => ThemedComponent => {
         themeNamespace !== prevProps.themeNamespace
       ) {
         this.theme_ = this.calcTheme()
-        return true
       }
-      return false
+      return true
     }
 
     render() {
