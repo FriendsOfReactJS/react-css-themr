@@ -1,3 +1,14 @@
+## [3.4.1](https://github.com/FriendsOfReactJS/react-css-themr/compare/3.4.0...3.4.1) (2018-12-05)
+
+
+### bugfix
+
+* shouldComponentUpdate ([0ed8562cfd9ca6be7a920a87ca6e31371cfb0443](https://github.com/FriendsOfReactJS/react-css-themr/commit/0ed8562cfd9ca6be7a920a87ca6e31371cfb0443))
+
+### Fix
+
+* Use nextProps argument in shouldComponentUpdate ([5db224e08b086e94069f0e9d517897d5820ff9c2](https://github.com/FriendsOfReactJS/react-css-themr/commit/5db224e08b086e94069f0e9d517897d5820ff9c2))
+
 # [3.4.0](https://github.com/FriendsOfReactJS/react-css-themr/compare/3.3.4...3.4.0) (2018-11-15)
 
 
