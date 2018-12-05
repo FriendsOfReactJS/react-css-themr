@@ -1,3 +1,19 @@
+## [3.4.2](https://github.com/FriendsOfReactJS/react-css-themr/compare/3.4.1...3.4.2) (2018-12-05)
+
+
+### Fix
+
+* Add missing asset folders to release config ([0f7bfde59b84b625854954674cfdbfb0899f7794](https://github.com/FriendsOfReactJS/react-css-themr/commit/0f7bfde59b84b625854954674cfdbfb0899f7794))
+
+### Upgrade
+
+* Update @types/react to version 16.7.13 ([7ddf658d025d1dc3bb3c0c4e1e84f1f5d3f5ae84](https://github.com/FriendsOfReactJS/react-css-themr/commit/7ddf658d025d1dc3bb3c0c4e1e84f1f5d3f5ae84))
+* Update commitizen to version 3.0.5 ([531259af3f03ba32fde2ccaf631183c6576f07a1](https://github.com/FriendsOfReactJS/react-css-themr/commit/531259af3f03ba32fde2ccaf631183c6576f07a1))
+* update hoist-non-react-statics to version 3.2.1 ([ad2e6ead9987a858459be644c6db041545cfcf3b](https://github.com/FriendsOfReactJS/react-css-themr/commit/ad2e6ead9987a858459be644c6db041545cfcf3b))
+* Update prettier to version 1.15.3 ([01eb3d0cb7e203c1ff304e8607822e9211d84287](https://github.com/FriendsOfReactJS/react-css-themr/commit/01eb3d0cb7e203c1ff304e8607822e9211d84287))
+* Update semantic-release to version 15.12.4 ([ded6659e99308690789a2b1267e4458094a5dbd6](https://github.com/FriendsOfReactJS/react-css-themr/commit/ded6659e99308690789a2b1267e4458094a5dbd6))
+* Update semantic-release to version 15.12.4 ([2657902373515a9bbc62a1755513143bcc853d09](https://github.com/FriendsOfReactJS/react-css-themr/commit/2657902373515a9bbc62a1755513143bcc853d09))
+
 ## [3.4.1](https://github.com/FriendsOfReactJS/react-css-themr/compare/3.4.0...3.4.1) (2018-12-05)
 
 
