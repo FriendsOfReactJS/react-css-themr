@@ -56,7 +56,7 @@
     "rimraf": "^2.6.2",
     "semantic-release": "^15.12.4",
     "sinon": "^7.1.1",
-    "travis-deploy-once": "^5.0.9"
+    "travis-deploy-once": "^5.0.11"
   },
   "files": [
     "index.d.ts",
