@@ -1,3 +1,23 @@
+# [3.5.0](https://github.com/FriendsOfReactJS/react-css-themr/compare/3.4.2...3.5.0) (2019-01-02)
+
+
+### Docs
+
+* Remove fork disclamer ([293bd87f8e2eed47de47b995fe6a16b254cbcd0c](https://github.com/FriendsOfReactJS/react-css-themr/commit/293bd87f8e2eed47de47b995fe6a16b254cbcd0c))
+
+### New
+
+* Replace slack badge ([cc31ab5d9060e6405f9ec868a0e753008afea367](https://github.com/FriendsOfReactJS/react-css-themr/commit/cc31ab5d9060e6405f9ec868a0e753008afea367)), closes [#35](https://github.com/FriendsOfReactJS/react-css-themr/issues/35)
+
+### Upgrade
+
+* Update eslint related packages ([3df60d5c9c92139a689db762ed8d5880ac6c1f72](https://github.com/FriendsOfReactJS/react-css-themr/commit/3df60d5c9c92139a689db762ed8d5880ac6c1f72))
+* Update jsdom ([11796619f0d114eedb647e426427b9951c09963d](https://github.com/FriendsOfReactJS/react-css-themr/commit/11796619f0d114eedb647e426427b9951c09963d))
+* Update react and react-dom to version 16.7.0 ([8530fea9b372e7c0b0843495571b6c8390987986](https://github.com/FriendsOfReactJS/react-css-themr/commit/8530fea9b372e7c0b0843495571b6c8390987986))
+* Update semantic release related packages ([8e2a125b157b0c4e3edc9f2b2ae55aed0aa23e22](https://github.com/FriendsOfReactJS/react-css-themr/commit/8e2a125b157b0c4e3edc9f2b2ae55aed0aa23e22))
+* Update sinon ([abc13d1a42f0d7ce6363e8e9655619d1b0350ab1](https://github.com/FriendsOfReactJS/react-css-themr/commit/abc13d1a42f0d7ce6363e8e9655619d1b0350ab1))
+* Update travis-deploy-once ([2b2dcdb23a789de1dac5726254508cd8a9f96983](https://github.com/FriendsOfReactJS/react-css-themr/commit/2b2dcdb23a789de1dac5726254508cd8a9f96983))
+
 ## [3.4.2](https://github.com/FriendsOfReactJS/react-css-themr/compare/3.4.1...3.4.2) (2018-12-05)
 
 
