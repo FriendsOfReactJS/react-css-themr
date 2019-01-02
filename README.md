@@ -20,8 +20,8 @@
   <a href="https://twitter.com/friendsofreact">
     <img alt="Follow friends of react on Twitter" src="https://img.shields.io/twitter/follow/friendsofreact.svg?label=follow+friendsofreact&style=flat-square">
   </a>
-  <a href="https://friendsofreact.slack.com">
-    <img alt="Chat with us on slack" src="https://img.shields.io/badge/chat-on%20Slack-red.svg">
+  <a href="https://spectrum.chat/friends-of-reactjs">
+    <img alt="Join the community on Spectrum" src="https://withspectrum.github.io/badge/badge.svg">
   </a>
 </p>
 
