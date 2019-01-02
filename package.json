@@ -29,8 +29,8 @@
     "prop-types": "^15.6.2"
   },
   "devDependencies": {
-    "@semantic-release/changelog": "^3.0.1",
-    "@semantic-release/git": "^7.0.5",
+    "@semantic-release/changelog": "^3.0.2",
+    "@semantic-release/git": "^7.0.7",
     "@semantic-release/release-notes-generator": "^7.1.4",
     "@types/react": "^16.7.13",
     "babel-cli": "^6.26.0",
@@ -54,7 +54,7 @@
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
     "rimraf": "^2.6.2",
-    "semantic-release": "^15.12.4",
+    "semantic-release": "^15.13.2",
     "sinon": "^7.1.1",
     "travis-deploy-once": "^5.0.11"
   },
