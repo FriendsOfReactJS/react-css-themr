@@ -28,12 +28,6 @@
 
 # Friends of react: React CSS Themr
 
-```
-⚛️️️❗️❗️⚛️
-This is a fork of React CSS Themr, that is not maintained anymore. We thank Javi Velasco for all his efforts and for
-creating such a great package. This package should not be unmaintained - so the friends of react will continue.
-```
-
 Easy theming and composition for CSS Modules.
 
 ```
@@ -228,6 +222,8 @@ semantic-release and travis, but the following will help you.
 ## About
 
 The project is originally authored by [Javi Velasco](https://twitter.com/javivelasco) as an effort of providing a better customization experience for [React Toolbox](http://react-toolbox.io). Any comments, improvements or feedback is highly appreciated.
+
+We thank Javi Velasco for all his efforts and for creating such a great package. The package `javivelasco/react-css-themr` should not be unmaintained - so the friends of react will continue.
 
 Thanks to [Nik Graf](http://www.twitter.com/nikgraf) and [Mark Dalgleish](http://www.twitter.com/markdalgleish) for their thoughts about theming and customization for React components.
 
