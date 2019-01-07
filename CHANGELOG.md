@@ -1,1 +1,82 @@
+# [3.5.0](https://github.com/FriendsOfReactJS/react-css-themr/compare/3.4.2...3.5.0) (2019-01-02)
+
+
+### Docs
+
+* Remove fork disclamer ([293bd87f8e2eed47de47b995fe6a16b254cbcd0c](https://github.com/FriendsOfReactJS/react-css-themr/commit/293bd87f8e2eed47de47b995fe6a16b254cbcd0c))
+
+### New
+
+* Replace slack badge ([cc31ab5d9060e6405f9ec868a0e753008afea367](https://github.com/FriendsOfReactJS/react-css-themr/commit/cc31ab5d9060e6405f9ec868a0e753008afea367)), closes [#35](https://github.com/FriendsOfReactJS/react-css-themr/issues/35)
+
+### Upgrade
+
+* Update eslint related packages ([3df60d5c9c92139a689db762ed8d5880ac6c1f72](https://github.com/FriendsOfReactJS/react-css-themr/commit/3df60d5c9c92139a689db762ed8d5880ac6c1f72))
+* Update jsdom ([11796619f0d114eedb647e426427b9951c09963d](https://github.com/FriendsOfReactJS/react-css-themr/commit/11796619f0d114eedb647e426427b9951c09963d))
+* Update react and react-dom to version 16.7.0 ([8530fea9b372e7c0b0843495571b6c8390987986](https://github.com/FriendsOfReactJS/react-css-themr/commit/8530fea9b372e7c0b0843495571b6c8390987986))
+* Update semantic release related packages ([8e2a125b157b0c4e3edc9f2b2ae55aed0aa23e22](https://github.com/FriendsOfReactJS/react-css-themr/commit/8e2a125b157b0c4e3edc9f2b2ae55aed0aa23e22))
+* Update sinon ([abc13d1a42f0d7ce6363e8e9655619d1b0350ab1](https://github.com/FriendsOfReactJS/react-css-themr/commit/abc13d1a42f0d7ce6363e8e9655619d1b0350ab1))
+* Update travis-deploy-once ([2b2dcdb23a789de1dac5726254508cd8a9f96983](https://github.com/FriendsOfReactJS/react-css-themr/commit/2b2dcdb23a789de1dac5726254508cd8a9f96983))
+
+## [3.4.2](https://github.com/FriendsOfReactJS/react-css-themr/compare/3.4.1...3.4.2) (2018-12-05)
+
+
+### Fix
+
+* Add missing asset folders to release config ([0f7bfde59b84b625854954674cfdbfb0899f7794](https://github.com/FriendsOfReactJS/react-css-themr/commit/0f7bfde59b84b625854954674cfdbfb0899f7794))
+
+### Upgrade
+
+* Update @types/react to version 16.7.13 ([7ddf658d025d1dc3bb3c0c4e1e84f1f5d3f5ae84](https://github.com/FriendsOfReactJS/react-css-themr/commit/7ddf658d025d1dc3bb3c0c4e1e84f1f5d3f5ae84))
+* Update commitizen to version 3.0.5 ([531259af3f03ba32fde2ccaf631183c6576f07a1](https://github.com/FriendsOfReactJS/react-css-themr/commit/531259af3f03ba32fde2ccaf631183c6576f07a1))
+* update hoist-non-react-statics to version 3.2.1 ([ad2e6ead9987a858459be644c6db041545cfcf3b](https://github.com/FriendsOfReactJS/react-css-themr/commit/ad2e6ead9987a858459be644c6db041545cfcf3b))
+* Update prettier to version 1.15.3 ([01eb3d0cb7e203c1ff304e8607822e9211d84287](https://github.com/FriendsOfReactJS/react-css-themr/commit/01eb3d0cb7e203c1ff304e8607822e9211d84287))
+* Update semantic-release to version 15.12.4 ([ded6659e99308690789a2b1267e4458094a5dbd6](https://github.com/FriendsOfReactJS/react-css-themr/commit/ded6659e99308690789a2b1267e4458094a5dbd6))
+* Update semantic-release to version 15.12.4 ([2657902373515a9bbc62a1755513143bcc853d09](https://github.com/FriendsOfReactJS/react-css-themr/commit/2657902373515a9bbc62a1755513143bcc853d09))
+
+## [3.4.1](https://github.com/FriendsOfReactJS/react-css-themr/compare/3.4.0...3.4.1) (2018-12-05)
+
+
+### bugfix
+
+* shouldComponentUpdate ([0ed8562cfd9ca6be7a920a87ca6e31371cfb0443](https://github.com/FriendsOfReactJS/react-css-themr/commit/0ed8562cfd9ca6be7a920a87ca6e31371cfb0443))
+
+### Fix
+
+* Use nextProps argument in shouldComponentUpdate ([5db224e08b086e94069f0e9d517897d5820ff9c2](https://github.com/FriendsOfReactJS/react-css-themr/commit/5db224e08b086e94069f0e9d517897d5820ff9c2))
+
+# [3.4.0](https://github.com/FriendsOfReactJS/react-css-themr/compare/3.3.4...3.4.0) (2018-11-15)
+
+
+### Build
+
+* Add greenkeeper custom messages ([8e019c890fa2b83d0009ba9a7210df06823ef935](https://github.com/FriendsOfReactJS/react-css-themr/commit/8e019c890fa2b83d0009ba9a7210df06823ef935))
+* Generate release notes automatically ([3e44d1ce93e1ceff6e0b91c23164ddbf6c2b515f](https://github.com/FriendsOfReactJS/react-css-themr/commit/3e44d1ce93e1ceff6e0b91c23164ddbf6c2b515f))
+* Update semantic release packages ([cff121df8b8948e516d0c32ae6546fe5c3164a37](https://github.com/FriendsOfReactJS/react-css-themr/commit/cff121df8b8948e516d0c32ae6546fe5c3164a37))
+
+### Fix
+
+* Fix comma issue in the release config ([3795f5bdfdb324e44019e119ef250270354a0fce](https://github.com/FriendsOfReactJS/react-css-themr/commit/3795f5bdfdb324e44019e119ef250270354a0fce))
+* Fix linting issues in themr ([04f7c4ea96426585f404d9ce457b90621c6a0646](https://github.com/FriendsOfReactJS/react-css-themr/commit/04f7c4ea96426585f404d9ce457b90621c6a0646))
+
+### New
+
+* Configure publish step for semantic release ([2a27c258bb61f3a55e69672637e796630a1c97c3](https://github.com/FriendsOfReactJS/react-css-themr/commit/2a27c258bb61f3a55e69672637e796630a1c97c3))
+
+### Update
+
+* Update hoist-non-react-statics to latest version ([2f956e5573dfd56938881c1d3fd7e9d4da778183](https://github.com/FriendsOfReactJS/react-css-themr/commit/2f956e5573dfd56938881c1d3fd7e9d4da778183))
+* Update jest to the latest version ([b963e2b19ce9f5ed8dabb22e35acb237fd83110e](https://github.com/FriendsOfReactJS/react-css-themr/commit/b963e2b19ce9f5ed8dabb22e35acb237fd83110e))
+* Update react and react-dom to version 16.6 ([e083218e24eb88328aa328b3b3b4db3ff0323b9f](https://github.com/FriendsOfReactJS/react-css-themr/commit/e083218e24eb88328aa328b3b3b4db3ff0323b9f))
+* Update sinon to the latest version ([6183348c0bf34020fa916b2bffce0adb89f882a1](https://github.com/FriendsOfReactJS/react-css-themr/commit/6183348c0bf34020fa916b2bffce0adb89f882a1))
+* Update the linters ([bb273fce94e6c45b81168e58b5826a83e49c260c](https://github.com/FriendsOfReactJS/react-css-themr/commit/bb273fce94e6c45b81168e58b5826a83e49c260c))
+* Update travis-deploy-once to version 5.0.9 ([d28b5bcd9193e73a5979480c052d15885030b3ea](https://github.com/FriendsOfReactJS/react-css-themr/commit/d28b5bcd9193e73a5979480c052d15885030b3ea))
+
+### Upgrade
+
+* update babel-eslint to version 10.0.0 ([96de91d8d2c726dda82e205d180d046cb0a83154](https://github.com/FriendsOfReactJS/react-css-themr/commit/96de91d8d2c726dda82e205d180d046cb0a83154))
+* update commitizen to version 3.0.0 ([d01406c11aabc4eee95e5dda277268611fa970c1](https://github.com/FriendsOfReactJS/react-css-themr/commit/d01406c11aabc4eee95e5dda277268611fa970c1))
+* update eslint-plugin-prettier to version 3.0.0 ([2df251ea6dab35055b61f61c01409188dce1c4ac](https://github.com/FriendsOfReactJS/react-css-themr/commit/2df251ea6dab35055b61f61c01409188dce1c4ac))
+* update jsdom to version 13.0.0 ([66ebfb5676940e761a8d191d8f1c6766afafa826](https://github.com/FriendsOfReactJS/react-css-themr/commit/66ebfb5676940e761a8d191d8f1c6766afafa826))
+
 # Changelog FriendsOfReactJS / react-css-themr

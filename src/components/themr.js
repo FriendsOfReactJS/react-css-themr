@@ -151,17 +151,16 @@ export default (componentName, localTheme, options = {}) => ThemedComponent => {
       return composeTheme ? this.getTheme() : this.getThemeNotComposed()
     }
 
-    shouldComponentUpdate(prevProps) {
+    shouldComponentUpdate(nextProps) {
       const { composeTheme, theme, themeNamespace } = this.props
       if (
-        composeTheme !== prevProps.composeTheme ||
-        theme !== prevProps.theme ||
-        themeNamespace !== prevProps.themeNamespace
+        composeTheme !== nextProps.composeTheme ||
+        theme !== nextProps.theme ||
+        themeNamespace !== nextProps.themeNamespace
       ) {
         this.theme_ = this.calcTheme()
-        return true
       }
-      return false
+      return true
     }
 
     render() {
