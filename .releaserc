@@ -29,7 +29,7 @@
         ["@semantic-release/commit-analyzer", {
             "preset": "eslint",
             "releaseRules": [
-                {"type": "Upgrade", "release": "patch"}
+                {"tag": "Upgrade", "release": "patch"}
             ],
         }],
     ]
