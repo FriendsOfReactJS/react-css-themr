@@ -2807,9 +2807,10 @@ cyclist@~0.2.2:
   resolved "https://registry.yarnpkg.com/cyclist/-/cyclist-0.2.2.tgz#1b33792e11e914a2fd6d6ed6447464444e5fa640"
   integrity sha1-GzN5LhHpFKL9bW7WRHRkRE5fpkA=
 
-cz-adapter-eslint@^0.1.2:
-  version "0.1.2"
-  resolved "https://registry.yarnpkg.com/cz-adapter-eslint/-/cz-adapter-eslint-0.1.2.tgz#ae450217bf935f7c1392d159a42ae3fb7091966b"
+cz-adapter-eslint@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/cz-adapter-eslint/-/cz-adapter-eslint-0.2.0.tgz#d4d4a713b065eee33839402a0228361fbd700a83"
+  integrity sha512-wHGXBw/s+oU7vgDcKGulpRwLje/6I0i/VtkFhXf3zYpRmh1EoWYgOmhQRc4pIab0/5QeiAMpi1K63XGHqrl7VA==
   dependencies:
     lodash.map "^4.6.0"
     longest "^2.0.1"
