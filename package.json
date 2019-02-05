@@ -49,7 +49,7 @@
     "eslint-plugin-react": "^7.12.3",
     "fbjs": "^1.0.0",
     "jest": "^23.6.0",
-    "jsdom": "^13.1.0",
+    "jsdom": "^13.2.0",
     "prettier": "^1.16.4",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
