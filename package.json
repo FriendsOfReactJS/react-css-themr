@@ -24,7 +24,7 @@
     "friends of react"
   ],
   "dependencies": {
-    "hoist-non-react-statics": "^3.2.1",
+    "hoist-non-react-statics": "^3.3.0",
     "invariant": "^2.2.4",
     "prop-types": "^15.6.2"
   },
