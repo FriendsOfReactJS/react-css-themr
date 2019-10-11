@@ -9,7 +9,6 @@ notifications:
 node_js:
   - '12'
   - '10'
-  - '8'
 before_install:
   - curl -o- -L https://yarnpkg.com/install.sh | bash -s -- --version 1.9.4
   - export PATH="$HOME/.yarn/bin:$PATH"
