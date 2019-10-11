@@ -49,13 +49,13 @@
     "eslint-plugin-react": "^7.16.0",
     "fbjs": "^1.0.0",
     "jest": "^24.9.0",
-    "jsdom": "^15.0.0",
+    "jsdom": "^15.1.1",
     "prettier": "^1.18.2",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
     "rimraf": "^3.0.0",
     "semantic-release": "^15.13.24",
-    "sinon": "^7.3.2",
+    "sinon": "^7.5.0",
     "travis-deploy-once": "^5.0.11"
   },
   "files": [
