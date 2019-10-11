@@ -148,7 +148,9 @@ export default (componentName, localTheme, options = {}) => ThemedComponent => {
 
     calcTheme(props) {
       const { composeTheme } = props
-      return composeTheme ? this.getTheme(props) : this.getThemeNotComposed(props)
+      return composeTheme
+        ? this.getTheme(props)
+        : this.getThemeNotComposed(props)
     }
 
     shouldComponentUpdate(nextProps) {
