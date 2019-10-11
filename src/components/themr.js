@@ -84,7 +84,7 @@ export default (componentName, localTheme, options = {}) => ThemedComponent => {
 
     constructor(...args) {
       super(...args)
-      this.theme_ = this.calcTheme()
+      this.theme_ = this.calcTheme(this.props)
     }
 
     getWrappedInstance() {
@@ -97,8 +97,8 @@ export default (componentName, localTheme, options = {}) => ThemedComponent => {
       return this.refs.wrappedInstance
     }
 
-    getNamespacedTheme() {
-      const { themeNamespace, theme } = this.props
+    getNamespacedTheme(props) {
+      const { themeNamespace, theme } = props
       if (!themeNamespace) return theme
 
       if (themeNamespace && !theme) {
@@ -119,9 +119,9 @@ export default (componentName, localTheme, options = {}) => ThemedComponent => {
         )
     }
 
-    getThemeNotComposed() {
-      const { theme } = this.props
-      if (theme) return this.getNamespacedTheme()
+    getThemeNotComposed(props) {
+      const { theme } = props
+      if (theme) return this.getNamespacedTheme(props)
       if (config.localTheme) return config.localTheme
       return this.getContextTheme()
     }
@@ -132,23 +132,25 @@ export default (componentName, localTheme, options = {}) => ThemedComponent => {
         : {}
     }
 
-    getTheme() {
-      const { composeTheme } = this.props
+    getTheme(props) {
+      const { composeTheme } = props
       return composeTheme === COMPOSE_SOFTLY
         ? {
             ...this.getContextTheme(),
             ...config.localTheme,
-            ...this.getNamespacedTheme()
+            ...this.getNamespacedTheme(props)
           }
         : themeable(
             themeable(this.getContextTheme(), config.localTheme),
-            this.getNamespacedTheme()
+            this.getNamespacedTheme(props)
           )
     }
 
-    calcTheme() {
-      const { composeTheme } = this.props
-      return composeTheme ? this.getTheme() : this.getThemeNotComposed()
+    calcTheme(props) {
+      const { composeTheme } = props
+      return composeTheme
+        ? this.getTheme(props)
+        : this.getThemeNotComposed(props)
     }
 
     shouldComponentUpdate(nextProps) {
@@ -158,7 +160,7 @@ export default (componentName, localTheme, options = {}) => ThemedComponent => {
         theme !== nextProps.theme ||
         themeNamespace !== nextProps.themeNamespace
       ) {
-        this.theme_ = this.calcTheme()
+        this.theme_ = this.calcTheme(nextProps)
       }
       return true
     }
