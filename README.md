@@ -8,9 +8,6 @@
   <a href="https://travis-ci.org/FriendsOfReactJS/react-css-themr">
     <img alt="Travis CI Build Status" src="https://img.shields.io/travis/FriendsOfReactJS/react-css-themr/master.svg?style=flat-square&label=Travis+CI">
   </a>
-  <a href="https://greenkeeper.io">
-    <img alt="We use greenkeeper" src="https://badges.greenkeeper.io/FriendsOfReactJS/react-css-themr.svg?style=flat-square">
-  </a>
   <a href="https://github.com/prettier/prettier">
     <img alt="code style: prettier" src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square">
   </a>
