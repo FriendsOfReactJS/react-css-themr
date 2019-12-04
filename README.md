@@ -14,8 +14,8 @@
   <a href="https://github.com/semantic-release/semantic-release">
     <img alt="We are using semantic-release" src="https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg?style=flat-square">
   </a>
-  <a href="https://twitter.com/friendsofreact">
-    <img alt="Follow friends of react on Twitter" src="https://img.shields.io/twitter/follow/friendsofreact.svg?label=follow+friendsofreact&style=flat-square">
+  <a href="https://david-dm.org/FriendsOfReactJS/react-css-themr">
+    <img alt="Watch dependecies of react css themr package" src="https://david-dm.org/FriendsOfReactJS/react-css-themr/repo.svg">
   </a>
   <a href="https://spectrum.chat/friends-of-reactjs">
     <img alt="Join the community on Spectrum" src="https://withspectrum.github.io/badge/badge.svg">
