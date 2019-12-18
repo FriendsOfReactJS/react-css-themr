@@ -17,7 +17,6 @@ declare module "@friendsofreactjs/react-css-themr" {
   }
 
   export interface ThemeProviderProps {
-    innerRef?: Function,
     theme: TReactCSSThemrTheme
   }
 
@@ -35,6 +34,6 @@ declare module "@friendsofreactjs/react-css-themr" {
     identifier: string | number | symbol,
     defaultTheme?: {},
     options?: IThemrOptions
-  ): <P, S>(component: (new(props: P, context?: any) => React.Component<P, S>) | React.SFC<P>) =>
-    ThemedComponentClass<P & { mapThemrProps?: TMapThemrProps<P> }, S>;
+  ): <P, S, R>(component: (new(props: P, context?: any) => React.Component<P, S>) | React.SFC<P>) =>
+    ThemedComponentClass<P & { mapThemrProps?: TMapThemrProps<P>, innerRef?: React.Ref<R> }, S>;
 }
