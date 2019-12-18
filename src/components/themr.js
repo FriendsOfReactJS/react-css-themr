@@ -70,7 +70,7 @@ export default (componentName, localTheme, options = {}) => ThemedComponent => {
         COMPOSE_SOFTLY,
         DONT_COMPOSE
       ]),
-      innerRef: PropTypes.func,
+      innerRef: PropTypes.oneOfType([PropTypes.func, PropTypes.object]),
       theme: PropTypes.object,
       themeNamespace: PropTypes.string,
       mapThemrProps: PropTypes.func
