@@ -14,9 +14,7 @@
   <a href="https://github.com/semantic-release/semantic-release">
     <img alt="We are using semantic-release" src="https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg?style=flat-square">
   </a>
-  <a href="https://david-dm.org/FriendsOfReactJS/react-css-themr">
-    <img alt="Watch dependecies of react css themr package" src="https://david-dm.org/FriendsOfReactJS/react-css-themr/repo.svg">
-  </a>
+  <a href="https://snyk.io/test/github/FriendsOfReactJS/react-css-themr?targetFile=package.json"><img src="https://snyk.io/test/github/FriendsOfReactJS/react-css-themr/badge.svg?targetFile=package.json" alt="Known Vulnerabilities" data-canonical-src="https://snyk.io/test/github/FriendsOfReactJS/react-css-themr?targetFile=package.json" style="max-width:100%;"></a>
   <a href="https://spectrum.chat/friends-of-reactjs">
     <img alt="Join the community on Spectrum" src="https://withspectrum.github.io/badge/badge.svg">
   </a>
