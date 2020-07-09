@@ -1,3 +1,21 @@
+# [4.1.0](https://github.com/FriendsOfReactJS/react-css-themr/compare/4.0.0...4.1.0) (2020-02-01)
+
+### Features
+
+* New: Support ref objects ([2e108210c754839bed5b7da7990955ba386eac19](https://github.com/FriendsOfReactJS/react-css-themr/commit/2e108210c754839bed5b7da7990955ba386eac19))
+* New: Move innerRef to the themr component ([c611918c068127a9a6f87b24dfb2c12fddbba56a](https://github.com/FriendsOfReactJS/react-css-themr/commit/c611918c068127a9a6f87b24dfb2c12fddbba56a))
+
+### Build
+
+* Fix: Pass nextProps into calcTheme. Current implementation uses current ... ([d04335e974a48a95a4cdc91be7ad9637e9f5bfec](https://github.com/FriendsOfReactJS/react-css-themr/commit/d04335e974a48a95a4cdc91be7ad9637e9f5bfec))
+
+
+### Docs
+
+* Docs: Replace twitter badge with dependency state ([e1846fdc26c72e434e93c2887c96ab46f05eeb8b](https://github.com/FriendsOfReactJS/react-css-themr/commit/e1846fdc26c72e434e93c2887c96ab46f05eeb8b))
+
+
+
 # [4.0.0](https://github.com/FriendsOfReactJS/react-css-themr/compare/3.5.6...4.0.0) (2019-13-10)
 
 ### BREAKING
