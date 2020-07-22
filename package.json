@@ -56,10 +56,11 @@
     "rimraf": "^3.0.0",
     "semantic-release": "^17.1.1",
     "sinon": "^7.5.0",
-    "travis-deploy-once": "^5.0.11"
+    "travis-deploy-once": "^5.0.11",
+    "typescript": "^3.9.7"
   },
   "files": [
-    "index.d.ts",
+    "types",
     "lib",
     "src"
   ],
@@ -78,7 +79,7 @@
   "peerDependencies": {
     "react": "^15.0.0-0 || ^16.0.0"
   },
-  "typings": "./index.d.ts",
+  "types": "./types/index.d.ts",
   "directories": {
     "lib": "lib",
     "test": "test"
