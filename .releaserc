@@ -1,6 +1,12 @@
 {
     "branch": "master",
     "tagFormat": "${version}",
+    "analyzeCommits": {
+        "preset": "eslint",
+        "releaseRules": [
+            {"tag": "Upgrade", "release": "patch"}
+        ]
+    },
     "verifyConditions": [
         {
             "path": "@semantic-release/changelog",
@@ -24,13 +30,5 @@
         "commitsSort": ["subject", "scope"],
       }
     },
-    "publish": ["@semantic-release/github", "@semantic-release/npm"],
-    "plugins": [
-        ["@semantic-release/commit-analyzer", {
-            "preset": "eslint",
-            "releaseRules": [
-                {"tag": "Upgrade", "release": "patch"}
-            ],
-        }],
-    ]
+    "publish": ["@semantic-release/github", "@semantic-release/npm"]
 }
