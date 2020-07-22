@@ -1,3 +1,10 @@
+# [4.3.0](https://github.com/FriendsOfReactJS/react-css-themr/compare/4.2.1...4.3.0) (2020-07-22)
+
+
+### New
+
+* Add typescript as dev dependency and update types ([6fcd571](https://github.com/FriendsOfReactJS/react-css-themr/commit/6fcd571cc5211c4b91486b538c0ba494a1497af8)), closes [#74](https://github.com/FriendsOfReactJS/react-css-themr/issues/74)
+
 ## [4.2.1](https://github.com/FriendsOfReactJS/react-css-themr/compare/4.2.0...4.2.1) (2020-07-22)
 
 
