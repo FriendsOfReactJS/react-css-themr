@@ -1,6 +1,19 @@
 ## [4.3.1](https://github.com/FriendsOfReactJS/react-css-themr/compare/4.3.0...4.3.1) (2020-07-22)
 
 
+### Build
+
+* Release 4.3.1 [skip ci] ([49ac3cd](https://github.com/FriendsOfReactJS/react-css-themr/commit/49ac3cd0e724381b840419e39dffdf32e417e6f1))
+
+### Fix
+
+* Name the default export for themr typings ([ddb4303](https://github.com/FriendsOfReactJS/react-css-themr/commit/ddb4303c7b76288d29eac097f68dfe7076d5f360)), closes [#74](https://github.com/FriendsOfReactJS/react-css-themr/issues/74)
+* Resolve linting issues ([4dbc02c](https://github.com/FriendsOfReactJS/react-css-themr/commit/4dbc02cb746138e58fbf3ed35f39aa25b9b6eb60))
+* Resolve typings for themr decorator ([1e20574](https://github.com/FriendsOfReactJS/react-css-themr/commit/1e2057483c3ddd550f055872b7499686766bc959)), closes [#74](https://github.com/FriendsOfReactJS/react-css-themr/issues/74)
+
+## [4.3.1](https://github.com/FriendsOfReactJS/react-css-themr/compare/4.3.0...4.3.1) (2020-07-22)
+
+
 ### Fix
 
 * Name the default export for themr typings ([ddb4303](https://github.com/FriendsOfReactJS/react-css-themr/commit/ddb4303c7b76288d29eac097f68dfe7076d5f360)), closes [#74](https://github.com/FriendsOfReactJS/react-css-themr/issues/74)
