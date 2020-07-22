@@ -177,7 +177,7 @@ const themr = (componentName, localTheme, options = {}) => ThemedComponent => {
 
   return hoistNonReactStatics(Themed, ThemedComponent)
 }
-export default themr;
+export default themr
 
 /**
  * Merges passed themes by concatenating string keys and processing nested themes

@@ -337,9 +337,10 @@ describe('Themr decorator function', () => {
     }
     const theme = {}
     const DecoratedContainer = hoc(Container)
-    const ThemedDecoratedContainer = themr('Container', theme)(
-      DecoratedContainer
-    )
+    const ThemedDecoratedContainer = themr(
+      'Container',
+      theme
+    )(DecoratedContainer)
     const tree = TestUtils.renderIntoDocument(
       <ThemedDecoratedContainer innerRef={spy} mapThemrProps={customMapper} />
     )
