@@ -1,3 +1,12 @@
+## [4.2.1](https://github.com/FriendsOfReactJS/react-css-themr/compare/4.2.0...4.2.1) (2020-07-22)
+
+
+### Upgrade
+
+* Update lodash and other packages for security reasons ([8d8e2ee](https://github.com/FriendsOfReactJS/react-css-themr/commit/8d8e2eed552a2a0647c4f3a96513560d1409afa9))
+* Updates commitizen related packages ([db26a79](https://github.com/FriendsOfReactJS/react-css-themr/commit/db26a79cbd09044f236d9541a80206801c81646d))
+* Upgrade semantic release dependencies ([cdc59bd](https://github.com/FriendsOfReactJS/react-css-themr/commit/cdc59bd74cd96e79cee6e6b5f48ba06190305b1f))
+
 # [4.1.0](https://github.com/FriendsOfReactJS/react-css-themr/compare/4.0.0...4.1.0) (2020-02-01)
 
 ### Features
