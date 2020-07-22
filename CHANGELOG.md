@@ -1,3 +1,10 @@
+## [4.3.1](https://github.com/FriendsOfReactJS/react-css-themr/compare/4.3.0...4.3.1) (2020-07-22)
+
+
+### Fix
+
+* Name the default export for themr typings ([ddb4303](https://github.com/FriendsOfReactJS/react-css-themr/commit/ddb4303c7b76288d29eac097f68dfe7076d5f360)), closes [#74](https://github.com/FriendsOfReactJS/react-css-themr/issues/74)
+
 # [4.3.0](https://github.com/FriendsOfReactJS/react-css-themr/compare/4.2.1...4.3.0) (2020-07-22)
 
 
