@@ -1,13 +1,15 @@
 export default class ThemeProvider extends Component<any, any, any> {
     static propTypes: {
-        children: any;
-        theme: any;
+        children: PropTypes.Validator<PropTypes.ReactElementLike>;
+        theme: PropTypes.Validator<object>;
     };
     static defaultProps: {
         theme: {};
     };
     static childContextTypes: {
-        themr: any;
+        themr: PropTypes.Validator<PropTypes.InferProps<{
+            theme: PropTypes.Validator<object>;
+        }>>;
     };
     constructor(props: Readonly<any>);
     constructor(props: any, context?: any);
@@ -18,3 +20,4 @@ export default class ThemeProvider extends Component<any, any, any> {
     };
 }
 import { Component } from "react";
+import PropTypes from "prop-types";

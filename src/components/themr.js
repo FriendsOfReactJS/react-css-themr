@@ -33,7 +33,7 @@ const THEMR_CONFIG =
  * @param {{}} [options] - Themr options
  * @returns {function(ThemedComponent:Function):Function} - ThemedComponent
  */
-export default (componentName, localTheme, options = {}) => ThemedComponent => {
+const themr = (componentName, localTheme, options = {}) => ThemedComponent => {
   const {
     composeTheme: optionComposeTheme,
     mapThemrProps: optionMapThemrProps
@@ -177,6 +177,7 @@ export default (componentName, localTheme, options = {}) => ThemedComponent => {
 
   return hoistNonReactStatics(Themed, ThemedComponent)
 }
+export default themr;
 
 /**
  * Merges passed themes by concatenating string keys and processing nested themes
